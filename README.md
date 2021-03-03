@@ -1,7 +1,27 @@
 # Discord-Tutorial-Bot
 Discord Tutorial Bot
 
-## Example Command
+## Requirements
+- Discord Bot Token [Guide](https://discordjs.guide/preparations/setting-up-a-bot-application.html#creating-your-bot)
+
+## 🚀 Getting Started
+```
+git clone https://github.com/ArdaEnginEbcim/Discord-Tutorial-Bot.git
+cd Discord-Tutorial-Bot
+npm install
+```
+- Run `start.bat`
+
+## ⚙️ Configuration
+- Copy or Rename .env.example to .env and fill out the values:
+```env
+PREFIX=
+AUTHOR_ID=
+CLIENT_ID=
+TOKEN=
+```
+
+## Example Command (`./src/commands/command-name.js`)
 ```js
 module.exports = {
   info: {
@@ -21,7 +41,7 @@ module.exports = {
 };
 ```
 
-## Example Event 
+## Example Event (`./src/events/event-name.js`)
 ```js
 module.exports = {
   info: {
@@ -36,3 +56,19 @@ module.exports = {
   }
 };
 ```
+
+## 🤝 Contributing
+- [Fork the repository](https://github.com/ArdaEnginEbcim/Discord-Tutorial-Bot/fork)
+- Clone your fork: git clone https://github.com/your-username/Discord-Tutorial-Bot.git
+- Create your feature branch: `git checkout -b my-new-feature`
+- Commit your changes: `git commit -am 'Add some feature'`
+- Push to the branch: `git push origin my-new-feature`
+- Submit a pull request
+
+## 💸 Donation 
+- Papara: 1848656156
+- TR IBAN: TR82 0006 4000 0013 2040 0585 91
+
+## 📝 Contact 
+- Discord: ⚶ Meska 🍁#0001 (`324146816322895873`)
+- Mail: developer.meska@gmail.com
