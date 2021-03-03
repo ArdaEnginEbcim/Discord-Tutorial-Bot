@@ -1,0 +1,33 @@
+{
+  "name": "meska",
+  "version": "0.0.1",
+  "description": "Meska Bot",
+  "main": "meska.js",
+  "license": "MIT",
+  "author": {
+    "name": "Meska",
+    "email": "ardaengnebcim@gmail.com"
+  },
+  "engines": {
+    "node": ">=12"
+  },
+  "scripts": {
+    "start": "node meska.js",
+    "install": "npm install",
+    "nodemon": "nodemon meska.js"
+  },
+  "keywords": [
+    "meska"
+  ],
+  "dependencies": {
+    "chalk": "^4.1.0",
+    "croxydb": "^0.0.7",
+    "discord.js": "^12.5.1",
+    "dotenv": "^8.2.0",
+    "fs": "^0.0.2",
+    "moment": "^2.29.1",
+    "nodemon": "^2.0.7",
+    "npmlogger": "^1.6.0",
+    "quickmongo": "^3.0.0"
+  }
+}
